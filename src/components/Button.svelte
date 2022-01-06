@@ -18,7 +18,10 @@
 
     &--primary {
       padding: $spacing-xs $spacing-l;
-      margin-right: $spacing-xs;
+    
+      @include respond(tab) {
+        margin-right: $spacing-xs;
+      }
 
       &::after {
         content: "v1.3";

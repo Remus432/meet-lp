@@ -1,8 +1,10 @@
 <script>
   import Gallery from "./Gallery.svelte"
+  import Counter from "./Counter.svelte"
 </script>
 
 <section class="feature-description">
+  <Counter count="1" />
   <Gallery />
   <div class="feature-description__text">
     <h3 class="feature-description__subheadline">Built For Modern Use</h3>
@@ -17,6 +19,8 @@
 
   .feature-description {
     padding: 0 2.4rem;
+    padding-bottom: 15rem;
+    position: relative;
 
     &__text {
       margin: $spacing-xxl 0;
@@ -54,6 +58,7 @@
 
     @include respond(desktop) {
       padding: 0 15.6rem;
+      padding-top: 31.4rem;
 
       &__description {
         margin: auto;

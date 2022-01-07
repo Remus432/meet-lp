@@ -1,8 +1,10 @@
 <script>
   import Button from "./Button.svelte"
+  import Counter from "./Counter.svelte"
 </script>
 
 <footer class="footer">
+  <Counter count="2" />
   <h2 class="footer__headline">Experience more together</h2>
   <p class="footer__description">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
   <Button 
@@ -17,7 +19,8 @@
   .footer {
     background-image: linear-gradient(rgba($primary-btn-color, .6), rgba($primary-btn-color, .8)),url("/assets/mobile/image-footer.jpg");
     background-size: cover;
-    padding: 9.2rem 2.4rem 7.2rem 2.4rem;
+    padding: 0rem 2.4rem 7.2rem 2.4rem;
+    position: relative;
     text-align: center;
 
     &__headline {
@@ -58,6 +61,7 @@
       background-image: linear-gradient(rgba($primary-btn-color, .6), rgba($primary-btn-color, .8)),url("/assets/desktop/image-footer.jpg");
       display: flex;
       padding: 11.6rem 16.5rem 10.4rem 16.5rem;
+      margin-top: 18rem;
       text-align: left;
 
       &__headline {

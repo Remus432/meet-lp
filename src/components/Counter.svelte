@@ -13,17 +13,36 @@
 
   .counter {
     flex-direction: column;
-    margin: $spacing-xxl 0;
+
+    &--1 {
+      margin: $spacing-xxl 0;
+    }
 
     &--2 {
-      transform: translateY(calc(($spacing-xxl * 150) / 100));
+      transform: translateY(calc(($spacing-xxl * -180) / 100));
       transform-origin: bottom;
     }
 
     @include flexCenter;
 
+    @include respond(desktop) {
+      position: absolute;
+      
+      &--1 {
+        left: 50%;
+        transform: translateY(-50%);
+        top: 10%;
+      }
+
+      &--2 {
+        left: 50%;
+        top: -58.4%;
+        transform: translate(-50%, 0%);
+      }
+    }
+
     &__line {
-      background-color: rgba($secondary-text-color, .25);
+      background-color: rgba($secondary-text-color, .5);
       height: 8.4rem;
       width: .1rem;
     }

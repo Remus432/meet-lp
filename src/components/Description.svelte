@@ -61,6 +61,12 @@
     }
 
     @include respond(desktop) {
+      & {
+        flex-direction: column;
+        margin: auto;
+        @include flexCenter;
+      }
+
       &__headline {
         width: 45%;
       }

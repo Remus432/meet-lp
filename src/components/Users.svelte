@@ -8,21 +8,27 @@
 
   gsap.registerPlugin(ScrollTrigger)
 
+  const animationOrder = [2, 10, 4, 8, 12, 6, 3, 11, 7, 1, 5, 9]
+
   onMount(() => {
     const users = document.querySelectorAll(".users__img")
+    const usersTimeline = gsap.timeline()
 
-    users.forEach(user => {
-      gsap.to(`.${user.classList[1]}`, {
-        scrollTrigger: {
-          trigger: ".users",
-          start: "-150px top",
-          ease: "bounce.inOut",
-          scrub: 3
-        },
+    animationOrder.forEach(user => {
+      usersTimeline.to(`.users__img--${user}`, {
         opacity: 1,
         scale: 1,
         duration: .5
       })
+
+    })
+
+    ScrollTrigger.create({
+      trigger: ".users",
+      animation: usersTimeline,
+      start: "-150px top",
+      ease: "bounce.inOut",
+      scrub: 6
     })
 
   })

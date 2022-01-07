@@ -23,7 +23,6 @@
 
 		heroTimeline.from(".hero__logo", {
 			opacity: 0,
-			y: 50,
 			duration: 1.2
 		})
 		.from(".header__headline", {
@@ -120,7 +119,7 @@
 			animation: heroTimeline,
 			trigger: ".hero",
 			start: "-50px top",
-			end: "bottom 40%",
+			end: "bottom -40%",
 			ease: "power3",
 			scrub: 5,
 			pin: true

@@ -7,7 +7,7 @@
   <Counter count="1" />
   <Gallery />
   <div class="feature-description__text">
-    <h3 class="feature-description__subheadline">Built For Modern Use</h3>
+    <p class="feature-description__subheadline">Built For Modern Use</p>
     <h2 class="feature-description__headline">Smarter meetings, all in one place</h2>
     <p class="feature-description__description">Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
   </div>

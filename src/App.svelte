@@ -21,8 +21,8 @@
 		const featuresTimeline = gsap.timeline()
 		const footerTimeline = gsap.timeline()
 
-		heroTimeline.from(".hero__logo", {
-			opacity: 0,
+		heroTimeline.to(".hero__logo", {
+			opacity: 1,
 			duration: 1.2
 		})
 		.from(".header__headline", {

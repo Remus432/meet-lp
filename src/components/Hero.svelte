@@ -24,6 +24,10 @@
     position: relative;
     text-align: center;
 
+    &__logo {
+      opacity: 0;
+    }
+
     &__nav {
       margin-bottom: 5.4rem;
     }

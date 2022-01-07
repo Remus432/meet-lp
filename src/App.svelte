@@ -141,7 +141,6 @@
 			start: "-200px center",
 			end: "-100px bottom",
 			ease: "power3.inOut",
-			markers: true,
 			toggleActions: "play none reverse none"
 		})
 

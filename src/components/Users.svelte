@@ -17,8 +17,7 @@
           trigger: ".users",
           start: "-150px top",
           ease: "bounce.inOut",
-          scrub: 3,
-          markers: true
+          scrub: 3
         },
         opacity: 1,
         scale: 1,

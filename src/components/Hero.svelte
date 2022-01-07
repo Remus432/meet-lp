@@ -8,11 +8,9 @@
     <img src="/assets/logo.svg" alt="Meet Logo" class="hero__logo">
   </nav>
   <div class="hero__showcase">
-    <!-- <img src="/assets/desktop/image-hero-left.png" alt="" class="hero__avatars-left"> -->
     <Users sidePos="left" usersCount={[1,2,3,4,5,6]} />
     <img src="/assets/tablet/image-hero.png" alt="User Avatars" class="hero__avatars">
     <Description />
-    <!-- <img src="/assets/desktop/image-hero-right.png" alt="" class="hero__avatars-right"> -->
     <Users sidePos="right" usersCount={[7,8,9,10,11,12]} />
   </div>
 </section>

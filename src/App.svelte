@@ -119,10 +119,10 @@
 		ScrollTrigger.create({
 			animation: heroTimeline,
 			trigger: ".hero",
-			start: "-20px top",
-			end: "bottom top",
+			start: "-50px top",
+			end: "bottom 40%",
 			ease: "power3",
-			scrub: 3,
+			scrub: 5,
 			pin: true
 		})
 

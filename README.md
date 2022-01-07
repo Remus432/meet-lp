@@ -1,38 +1,41 @@
-# Frontend Mentor - NFT Preview Card Component (HTML5 + SCSS)
+# Frontend Mentor - Meet Landing Page (Svelte - SCSS - GSAP Powered Scroll Animation)
 
 ![Design preview for the Todo app
- coding challenge](./design/desktop-preview.jpg)
+ coding challenge](./preview.jpg)
 
 ## Welcome! 👋
 
-Today's challenge was building this NFT preview card component. It was an easy and fun challenge to warm up for more advanced Frontend Mentor projects :)
+Today's challenge was building the Meet landing page. This was one of the most exciting and fun projects I've built so far.
 
-[Live Site](https://nft-preview-card-component-hazel.vercel.app/)
+[Live Site](https://meet-lp.vercel.app/)
 
 ## Technologies Used
 
 * **HTML5**
 * **SCSS**
+* **Svelte**
+* **GSAP**
 
 * **
 
 ## Development
 
-With all the frameworks, libraries, plugins, and whatnot out there we feel like everywhere we turn we have to squeeze tons of new information in our brains.
+Last Newbie challenge from Frontend Mentor!
 
-Yet we forget that in frontend development, at the end of the day, HTML, CSS, and Javascript are the building blocks of all the framworks and libraries out there. Knowing these three pillars are what contributes to a successful career in frontend development.
+Let me tell you something - this didn't feel newbiew level at all :) 
 
-That's why I love going back to these simple, yet beautiful projects. 
+First of all, I'd like to mention that the ideas for the animations came from [ApplePieGiraffe](https://www.frontendmentor.io/profile/ApplePieGiraffe). He's a brilliant developer and has built some incredible projects that you have to check out and see for yourself just how awesome his work is. 
 
-There's no need for NPM modules, libraries, compilers. Just plain good ol' frontend code.
+After seeing his Meet landing page design, I tried to implement a similar animation in my own project. Truth be told, I stumbled across his solution months ago and I thought I could never achieve anything quite like that. In the end, my curiosity and desire to experiment and build new things, led me to attempt implementing this type of scroll-based animation.
 
-As a side note, I used SCSS just because I wanted to implement my BEM methodology and variables. You could easily do the same with plain CSS.
+I've spent around 10 hours working on this project. The design itself was finished in around 2 hours. The rest of the time I spent on implementing the GSAP animations and making adjustments to the code.
 
-So, there's not much explanation to do for this project - a few images, text, and some transitions here and there.
+This was my first time using GSAP on such a large scale and there are definitely more improvements that can be done to the GSAP implementation and to the code itself.
 
-Once you spend a few months practicing your skills, you realize how far you've gotten once you manage to build robust projects using best practices in record time.
+For the time being, the animations are only available on the larger screen sizes as there are some visual bugs on the smaller screen sizes. 
 
-Keep going - with each project you complete, you're getting closer to your dream! ;)
+Despite it being quite a difficult project, it was incredibly fun. If you haven't used GSAP before, I recommend you give it a shot. You can build a lot of amazing stuff with it and truly unleash your creative potential.
+
  
 * **
 

@@ -11,7 +11,6 @@
   const animationOrder = [2, 10, 4, 8, 12, 6, 3, 11, 7, 1, 5, 9]
 
   onMount(() => {
-    const users = document.querySelectorAll(".users__img")
     const usersTimeline = gsap.timeline()
 
     animationOrder.forEach(user => {

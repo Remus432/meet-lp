@@ -147,11 +147,11 @@
 
 </script>
 
-<div class="lp">
+<main class="lp">
 	<Hero />
 	<FeatureDescription />
 	<Footer />
-</div>
+</main>
 
 <style>
 	.lp {

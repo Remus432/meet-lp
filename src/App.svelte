@@ -23,7 +23,7 @@
 
 		heroTimeline.from(".hero__logo", {
 			opacity: 0,
-			y: 50,
+			y: -50,
 			duration: 1.2
 		})
 		.from(".header__headline", {
@@ -119,7 +119,7 @@
 		ScrollTrigger.create({
 			animation: heroTimeline,
 			trigger: ".hero",
-			start: "-60px top",
+			start: "-80px top",
 			end: "bottom top",
 			ease: "power3",
 			scrub: 3,
